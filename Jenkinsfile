@@ -26,7 +26,7 @@ pipeline {
         }
         failure {
             echo 'This will run only if failed'
-            echo 'Failed Pipeline' | mail -s 'Something is wrong with Jenkins Project' dummy 
+            sh 'echo "Failed Pipeline" | mail -s "Something is wrong with Jenkins Project" dummy' 
         }
         unstable {
             echo 'This will run only if the run was marked as unstable'
