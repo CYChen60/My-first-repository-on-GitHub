@@ -10,6 +10,6 @@
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!! GitHub" << endl; // prints !!!Hello World!!!
+	cout << "!!!Hello World!!! GitHub - 2" << endl; // prints !!!Hello World!!!
 	return 0;
 }
