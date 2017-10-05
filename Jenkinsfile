@@ -10,6 +10,7 @@ pipeline {
                 '''
                 sh 'gcc --version'
                 sh 'g++ GitTest/src/GitTest.cpp'
+                sh './a.out'
             }
         }
         stage('Test') {
