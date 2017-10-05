@@ -9,6 +9,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'gcc --version'
+                sh 'g++ GitTest/src/GitTest.cpp'
             }
         }
         stage('Test') {
